@@ -1,0 +1,17 @@
+
+{
+  "name": "multi-store-marketplace-bot",
+  "version": "1.0.0",
+  "description": "Guedx's Multi-Store Marketplace Bot - Dead Rails, Grow a Garden, and Fisch",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
