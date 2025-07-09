@@ -464,10 +464,10 @@ client.on(Events.MessageCreate, async message => {
       .setColor(0xFF0000);
 
     const welcomeEmbed = new EmbedBuilder()
-      .setTitle("**Welcome to Guedx's Marketplace!🌋**")
+      .setTitle("**Welcome to Guedx's Marketplace!**")
       .setDescription(
         "This is the official hub for our **Roblox game store**, built for players who want to buy and dominate\n\n" +
-        "# **What you'll find here :emoji_7::**\n\n" +
+        "# **What you'll find here:**\n\n" +
         "> " + (client.emojis.cache.find(emoji => emoji.name === 'emoji_6') ? `<:emoji_6:${client.emojis.cache.find(emoji => emoji.name === 'emoji_6').id}>` : '🍅') + " **Grow a Garden**\n" +
         "Buy Shekles: no farming, just pure progress\n\n" +
         "> " + (client.emojis.cache.find(emoji => emoji.name === 'emoji_8') ? `<:emoji_8:${client.emojis.cache.find(emoji => emoji.name === 'emoji_8').id}>` : '🦑') + " **Fisch**\n" +
@@ -476,7 +476,7 @@ client.on(Events.MessageCreate, async message => {
         "Trains · Here you can buy cheap trains for 20 Robux / $0.20 each!\n" +
         "Classes · We also sell cheap classes for just 20 Robux / $0.20 each!\n\n" +
         "Need help? Ping staff, we're here to assist\n\n" +
-        "**⚠️ Payment methods accepted:**\n" + (ltcEmoji ? `<:${ltcEmoji.name}:${ltcEmoji.id}>` : 'LTC') + " Litecoin and " + (robuxEmoji ? `<:${robuxEmoji.name}:${robuxEmoji.id}>` : 'Robux') + " Robux\n" +
+        "**Payment methods accepted:**\n" + (ltcEmoji ? `<:${ltcEmoji.name}:${ltcEmoji.id}>` : 'LTC') + " Litecoin and " + (robuxEmoji ? `<:${robuxEmoji.name}:${robuxEmoji.id}>` : 'Robux') + " Robux\n" +
         "**.     Never send payment without staff present**\n\n" +
         "**No DMs · Always open a ticket**\n" +
         "Let us handle the grind, you just play"
