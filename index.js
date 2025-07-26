@@ -1078,7 +1078,7 @@ client.on(Events.MessageCreate, async message => {
 
     const bannerEmbed = new EmbedBuilder()
       .setImage("https://cdn.discordapp.com/attachments/1326024496486023289/1398638623494246410/standard_9.gif?ex=68861739&is=6884c5b9&hm=83a27694d5068017fd89db2681d7600958ffd40d750ca9a3b39d3d051ff1fbf2&")
-      .setColor(0xFF0000);
+      .setColor(0x4c00b0);
 
     const welcomeEmbed = new EmbedBuilder()
       .setTitle("**Welcome to Guedx's Marketplace!**")
@@ -1098,7 +1098,7 @@ client.on(Events.MessageCreate, async message => {
         "**No DMs · Always open a ticket**\n" +
         "Let us handle the grind, you just play"
       )
-      .setColor(0xFF0000);
+      .setColor(0x4c00b0);
 
     const deadRailsButton = new ButtonBuilder()
       .setCustomId('store_deadrails')
