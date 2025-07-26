@@ -1083,7 +1083,6 @@ client.on(Events.MessageCreate, async message => {
     const welcomeEmbed = new EmbedBuilder()
       .setTitle("**Welcome to Guedx's Marketplace!**")
       .setDescription(
-        "This is the official hub for our **Roblox game store**, built for players who want to buy and dominate\n\n" +
         "# **What you'll find here:**\n\n" +
         "> " + (client.emojis.cache.find(emoji => emoji.name === 'emoji_6') ? `<:emoji_6:${client.emojis.cache.find(emoji => emoji.name === 'emoji_6').id}>` : '🍅') + " **Grow a Garden**\n" +
         "Buy Shekles: no farming, just pure progress\n\n" +
