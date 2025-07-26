@@ -1077,7 +1077,7 @@ client.on(Events.MessageCreate, async message => {
     const ltcEmoji = client.emojis.cache.find(emoji => emoji.name === 'emoji_4');
 
     const bannerEmbed = new EmbedBuilder()
-      .setImage("https://cdn.discordapp.com/attachments/1326019943485149324/1393701032411795577/IMG_20250712_181000.png?ex=687420bb&is=6872cf3b&hm=cec2a02b977d769b3ee11b080b174b72c7cf2c17994e9f6dc2425783d59a6803&")
+      .setImage("https://cdn.discordapp.com/attachments/1326014722079981620/1398636930459111474/standard_6.gif?ex=688615a5&is=6884c425&hm=e88236f894e5a344450370351e1f7137431a69afe9bb2c78b294b37853954ad7&")
       .setColor(0xFF0000);
 
     const welcomeEmbed = new EmbedBuilder()
